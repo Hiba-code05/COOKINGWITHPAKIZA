@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+    background-color: rgba(245, 159, 11, 0.345);
+}
+
+body {
+    border-radius: 0cqmax;
+    border-color: black;
+    border-width: 0cqmax;
+    border-style: double;
+    margin: 0%;
+    background-color: rgba(246, 239, 222, 0.568);
+    border-left-style: dashed;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+
+button {
+    font-size: large;
+    color: rgba(144, 106, 9, 0.947);
+    background-color: rgba(245, 159, 11, 0.345);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+p {
+    font-weight: lighter;
+    font-size: x-large;
+    font-style: italic;
+
+}
+
+h3 {
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+img {
+    text-align: center;
+    width: 1480px;
+    height: 400px;
+    align-content: center;
+
+}
