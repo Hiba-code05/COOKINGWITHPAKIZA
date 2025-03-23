@@ -1,0 +1,57 @@
+/* General Styling */
+body {
+    font-size: 18px; /* Default font size for laptops */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex; /* Creates a flexible layout */
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    gap: 20px; /* Adds space between items */
+    padding: 20px; /* Adds padding around the container */
+}
+
+.item {
+    flex: 1 1 45%; /* Items adjust width to fit screens */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    padding: 10px;
+}
+
+/* Images */
+img {
+    max-width: 100%; /* Prevents images from overflowing */
+    height: auto; /* Maintains image proportions */
+}
+
+/* Buttons and Links */
+button, a {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover, a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Smaller font for mobiles */
+    }
+
+    .container {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .item {
+        flex: 1 1 100%; /* Items take full width */
+    }
+}
